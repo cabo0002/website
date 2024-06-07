@@ -1,0 +1,115 @@
+/****** Menu ******/
+
+header {
+  display: flex;
+  justify-content: center; /* Change to center */
+  align-items: center;
+  padding: 17px;
+  background-color: #f7f5de;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Center the content */
+  align-items: center;
+  width: 100%; /* Ensure it takes full width */
+}
+
+.menu {
+  display: flex;
+  justify-content: center; /* Center items within the menu */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Ensure it takes full width */
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 17px;
+  color: #4c71a0;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center; /* Ensure text is centered */
+  font-size: 1.1rem;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+/*** menu slut ***/
+
+body {
+  margin: 0;
+  background-color: #f6f5eb;
+}
+
+main {
+  margin: 0 auto;
+  text-wrap: pretty;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2 {
+  font-family: "Libre Caslon Display", serif;
+}
+h3 {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+p {
+  font-family: "Amiri", serif;
+  color: #4c71a0;
+}
+
+/*** footer ***/
+
+.grid_1_1_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr;
+  margin: 0.5rem;
+}
+
+.icons {
+  max-width: 15px;
+}
+
+.icon_1 {
+  grid-column: 1/2;
+  justify-self: end;
+  align-self: center;
+}
+
+.icon_2 {
+  grid-column: 2/3;
+  justify-self: end;
+  align-self: center;
+}
+
+.navn {
+  grid-column: 3/4;
+  justify-self: end;
+  align-self: end;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
