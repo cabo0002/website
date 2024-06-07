@@ -1,0 +1,41 @@
+h1 {
+  font-family: "Libre Caslon Display", serif;
+  color: #4c71a0;
+  font-size: 57px;
+}
+h2 {
+  font-family: "Libre Caslon Display", serif;
+  color: #4c71a0;
+}
+h3 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #4c71a0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+p {
+  font-family: "Amiri", serif;
+  color: #4c71a0;
+  font-size: 17px;
+}
+
+/**** Forsiden ****/
+
+.blue_box {
+  background-color: #7b9bbc;
+}
+
+.white_h2,
+.white_p {
+  color: white;
+}
+
+.ord_1,
+.ord_2,
+.ord_3,
+.ord_4,
+.ord_5,
+.ord_6 {
+  font-size: 12px;
+}
