@@ -41,7 +41,8 @@ nav {
   text-decoration: none;
   transition: 0.3s;
   text-align: center; /* Ensure text is centered */
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-family: "Amiri", serif;
 }
 
 .menu a:hover {
@@ -170,7 +171,8 @@ img {
 }
 
 .white_p,
-.blue_p {
+.blue_p,
+.blue_p_tema {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
@@ -235,7 +237,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 65px;
-  width: 85%;
+  width: 72%;
 }
 
 .read_more {
@@ -246,6 +248,45 @@ img {
   font-size: 14px;
   text-decoration: none;
   display: block;
+  font-weight: bold;
+}
+
+.musling {
+  max-width: 36%;
+  place-self: center;
+  padding-left: 8rem;
+  padding-bottom: 2rem;
+}
+
+/*** TEMAER SIDER ***/
+.blue_musling {
+  max-width: 36%;
+}
+
+.blue_musling {
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.tema_billeder {
+  margin: 3rem;
+}
+
+.tema_billede1 {
+  padding-bottom: 2rem;
+}
+
+.click_here {
+  border-style: solid;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 2rem;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
 }
 
 @media (min-width: 750px) {
@@ -372,5 +413,74 @@ img {
   .text {
     place-self: center;
     padding-right: 11rem;
+  }
+
+  /***** PROJEKTER DESKTOP *******/
+  #projekt_overskrift {
+    text-align: center;
+  }
+
+  .blue_p {
+    padding-left: 26rem;
+  }
+
+  .grid2_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .musling {
+    place-self: center end;
+  }
+  .grid_1_1 {
+    display: grid;
+    margin-bottom: 9rem;
+  }
+
+  .blue_p {
+    padding-left: 9rem;
+    padding-right: 7rem;
+  }
+  .read_more {
+    margin: 13rem;
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /*** PROJEKTER DESKTOP ***/
+  .blue_musling {
+    max-width: 8%;
+    margin-top: 5rem;
+  }
+
+  .tema_billeder {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 8rem;
+    grid-gap: 10%;
+  }
+
+  .tema_billede2 {
+    place-self: center;
+  }
+
+  /*** inline fordi at den automatisk sprædte omridset helt ud til siderne ved display: block ***/
+  .click_here {
+    display: inline;
+  }
+
+  .blue_p_tema,
+  .tema_underoverskrift {
+    padding-left: 26rem;
+    padding-right: 7rem;
+  }
+  .click_here {
+    margin-left: 36rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 17px;
   }
 }
