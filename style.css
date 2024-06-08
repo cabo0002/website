@@ -2,12 +2,14 @@ h1 {
   font-family: "Libre Caslon Display", serif;
   color: #4c71a0;
   font-size: 57px;
+  font-weight: lighter;
 }
 h2 {
   font-family: "Libre Caslon Display", serif;
   color: #4c71a0;
 }
-h3 {
+h3,
+a {
   font-family: "Source Sans 3", sans-serif;
   color: #4c71a0;
   padding-left: 2rem;
@@ -38,4 +40,11 @@ p {
 .ord_5,
 .ord_6 {
   font-size: 12px;
+}
+
+/**** Forsiden *****/
+
+#projekt_overskrift {
+  font-size: 48px;
+  padding: 2rem;
 }
