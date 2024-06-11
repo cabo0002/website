@@ -305,7 +305,9 @@ img {
 #after_container,
 #html_container,
 #css_container,
-#js_container {
+#js_container,
+#figma_container,
+#audition_container {
   width: 87%;
   aspect-ratio: 10/1;
   background-color: #f7f5de;
@@ -313,42 +315,24 @@ img {
   margin-right: auto;
 }
 
-#paddingg_js {
+#padding_kompetener {
   padding-bottom: 2rem;
 }
 
-#kompetencer_sprite {
-  width: 50%;
-  height: 100%;
-  transform-origin: left;
-}
-
-#illustrator_sprite {
-  width: 60%;
-  height: 100%;
-  transform-origin: left;
-}
-
-#premiere_sprite {
-  width: 70%;
-  height: 100%;
-  transform-origin: left;
-}
-
-#after_sprite {
-  width: 70%;
-  height: 100%;
-  transform-origin: left;
-}
-
 #html_sprite {
-  width: 70%;
+  width: 90%;
   height: 100%;
   transform-origin: left;
 }
 
 #css_sprite {
-  width: 70%;
+  width: 85%;
+  height: 100%;
+  transform-origin: left;
+}
+
+#figma_sprite {
+  width: 91%;
   height: 100%;
   transform-origin: left;
 }
@@ -359,13 +343,45 @@ img {
   transform-origin: left;
 }
 
+#audition_sprite {
+  width: 50%;
+  height: 100%;
+  transform-origin: left;
+}
+
+#illustrator_sprite {
+  width: 69%;
+  height: 100%;
+  transform-origin: left;
+}
+
+#after_sprite {
+  width: 45%;
+  height: 100%;
+  transform-origin: left;
+}
+
+#premiere_sprite {
+  width: 61%;
+  height: 100%;
+  transform-origin: left;
+}
+
+#kompetencer_sprite {
+  width: 40%;
+  height: 100%;
+  transform-origin: left;
+}
+
 .kompetencer,
 .illustrator,
 .premiere,
 .after,
 .html,
 .css,
-.js {
+.js,
+.figma,
+.audition {
   animation-name: kompetencer_kf;
   animation-duration: 6s;
   animation-timing-function: linear;
@@ -392,7 +408,10 @@ img {
   padding-bottom: 2rem;
 }
 
-#more {
+#more_1,
+#more_2,
+#more_3,
+#more_4 {
   display: none;
 }
 
@@ -652,7 +671,9 @@ button {
   #after_container,
   #html_container,
   #css_container,
-  #js_container {
+  #js_container,
+  #figma_container,
+  #audition_container {
     aspect-ratio: 13/1;
   }
 

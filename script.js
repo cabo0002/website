@@ -29,3 +29,35 @@ document.querySelector("#plusknap_2").addEventListener("click", function () {
     moreText2.style.display = "inline";
   }
 });
+
+document.querySelector("#plusknap_3").addEventListener("click", function () {
+  let dots3 = document.querySelector("#dots_3");
+  let moreText3 = document.querySelector("#more_3");
+  let button3 = document.querySelector("#plusknap_3");
+
+  if (dots3.style.display === "none") {
+    dots3.style.display = "inline";
+    button3.textContent = "+";
+    moreText3.style.display = "none";
+  } else {
+    dots3.style.display = "none";
+    button3.textContent = "-";
+    moreText3.style.display = "inline";
+  }
+});
+
+document.querySelector("#plusknap_4").addEventListener("click", function () {
+  let dots4 = document.querySelector("#dots_4");
+  let moreText4 = document.querySelector("#more_4");
+  let button4 = document.querySelector("#plusknap_4");
+
+  if (dots4.style.display === "none") {
+    dots4.style.display = "inline";
+    button4.textContent = "+";
+    moreText4.style.display = "none";
+  } else {
+    dots4.style.display = "none";
+    button4.textContent = "-";
+    moreText4.style.display = "inline";
+  }
+});
