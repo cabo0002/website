@@ -439,10 +439,23 @@ button {
 }
 
 .blue_musling {
-  max-width: 20%;
+  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
+  grid-column: 2/3;
+}
+
+.grid2_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pil {
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 173%;
 }
 
 .tema_billeder {
@@ -599,7 +612,7 @@ button {
 
   .overskrift_mig {
     grid-column: 4/6;
-    font-size: 300%;
+    font-size: 297%;
   }
 
   .white_h2_mig {
@@ -700,8 +713,13 @@ button {
 
   /*** PROJEKTER DESKTOP ***/
   .blue_musling {
-    max-width: 8%;
+    max-width: 25%;
     margin-top: 5rem;
+  }
+
+  .pil {
+    margin-top: 12rem;
+    max-width: 10%;
   }
 
   .tema_billeder {
