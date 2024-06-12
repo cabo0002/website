@@ -174,7 +174,7 @@ img {
 .ord_5 {
   grid-column: 1/3;
   grid-row: 4/5;
-  place-self: start right;
+  place-self: start center;
 }
 
 .ord_6 {
